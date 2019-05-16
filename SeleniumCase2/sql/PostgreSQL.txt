@@ -1,0 +1,7 @@
+CREATE TABLE public.goods
+(
+  id integer NOT NULL DEFAULT nextval('goods_id_seq'::regclass),
+  name character(700),
+  price integer,
+  CONSTRAINT goods_pkey PRIMARY KEY (id)
+)
