@@ -1,0 +1,12 @@
+Test Case 2:
+
+Steps to reproduce
+
+1 deploy a database locally, for example MySQL
+2 go to the site "rozetka.com.ua"
+3 go to the section "Товары для дома"
+4 go to the section "Бытовая химия"
+5 go to the section "Средства для стирки"
+6 go to the section "Стиральные средства"
+7 choose from the first five pages of search results the names and prices of all goods in the range from 100 to 300 hryvnias
+8 write the results to the database
